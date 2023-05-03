@@ -3,4 +3,4 @@ project(Cafe)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Cafe main.cpp)
+add_executable(Cafe main.cpp Product.h Calculate.h Print.h)
