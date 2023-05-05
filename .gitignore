@@ -57,3 +57,4 @@ _deps
 .idea/
 cmake-build-*/
 .PVS-Studio/
+/.vs
