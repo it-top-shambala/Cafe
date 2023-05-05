@@ -2,6 +2,9 @@
 
 #include <string>
 
+#include "Pizzas.h"
+#include "Drinks.h"
+
 using namespace std;
 
 struct Product {
