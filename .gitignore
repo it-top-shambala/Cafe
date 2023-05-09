@@ -57,3 +57,7 @@ _deps
 .idea/
 cmake-build-*/
 .PVS-Studio/
+/.vs
+/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-4d79f78f4fbd3d9655ab.json
+/out/build/x64-Debug/.cmake/api/v1/reply/target-Cafe-Debug-04d6a199d33acc5ad5ce.json
+/out/build/x64-Debug/.cmake/api/v1/reply/index-2023-05-05T15-39-25-0017.json
