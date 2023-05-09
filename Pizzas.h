@@ -1,17 +1,14 @@
 #pragma once
 
-#include "Product.h"
-
-#include <vector>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-using Pizzas = vector<Product>;
-
-Pizzas pizzas[] = {
-	{ "Маргарита", 1, 300 },
-	{ "Донна пицца", 2, 350 },
-	{ "Вегетарианская", 3, 280 },
-	{ "Четыре сыра", 4, 320 } 
+struct Pizza {
+	int code;
+	string name;
+	double price;
 };
+
+using Pizzas = vector<Pizza>;

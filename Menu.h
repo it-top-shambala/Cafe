@@ -1,13 +1,19 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 
-#include "Product.h"
+#include "Order.h"
 
 using namespace std;
 
-void PrintMenu() {
-	cout << "Здравствуйте!" << endl;
-	cout << "Перед Вами меню выбора пицц и напитков:" << endl;
-	cout << "Для заказа выберите товар:" << endl;
-}
+Pizzas pizzas = {
+	{ 1, "Маргарита", 300 },
+	{ 2, "Донна пицца", 350 },
+	{ 3, "Вегетарианская", 280 },
+	{ 4, "Четыре сыра", 320 } };
+
+Drinks drinks = {
+	{ 5, "Кофе", 50},
+	{ 6, "Минеральная вода", 30 },
+	{ 7, "Сок", 100 } };

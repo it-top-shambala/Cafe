@@ -1,14 +1,15 @@
 #pragma once
 
-#include "Product.h"
-
 #include <vector>
+#include <string>
 
-using Drinks = vector<Product>;
+using namespace std;
 
-Drinks drinks[] = {
-	{ "Кофе", 5, 50 },
-	{ "Минеральная вода", 6, 80 },
-	{ "Сок", 7, 100 }
+struct Drink {
+	int code;
+	string name;
+	double price;
+	bool discount;
 };
 
+using Drinks = vector<Drink>;

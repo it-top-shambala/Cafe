@@ -7,8 +7,10 @@
 
 using namespace std;
 
-struct Product {
-	string name;
-	int code;
-	double price;
+struct Order {
+	Pizzas pizzas;
+	int pizzaCount;
+	Drinks drinks;
+	int drinkCount;
+	double total;
 };
